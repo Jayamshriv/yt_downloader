@@ -4,6 +4,8 @@ import subprocess
 import platform
 import urllib.parse
 
+#terminal cmd
+# yt-dlp --ffmpeg-location "E://ffmpeg" -f "bestvideo+bestaudio/best" -o "D:/z_material/JAVA/%(title)s [%(id)s].%(ext)s" "https://www.youtube.com/watch?v=-1GB6m39-rM"
 # --- Configuration ---
 VIDEO_URL = "https://www.youtube.com/watch?v=-1GB6m39-rM"
 DOWNLOAD_PATH = "D:/z_material/JAVA" 
